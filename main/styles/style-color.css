@@ -1,0 +1,19 @@
+.color-orange {
+    color: rgb(226, 126, 54);
+}
+.color-white {
+    color: white;
+}
+.backcolor-darkgray {
+    background-color: rgb(61, 61, 61);
+}
+.backcolor-gray {
+    background-color: gray;
+}
+.backcolor-darkblue {
+    background-color: rgb(41, 87, 113);
+}
+
+.hover-ligthorange:hover {
+    color: rgb(226, 177, 141);
+}
