@@ -1,0 +1,42 @@
+@media (min-width: 0px) {
+
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+@media (max-width: 1550px) {
+
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+@media (max-width: 1350px) {
+
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media (max-width: 1000px) {
+
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
+
+@media (max-width: 650px) {
+
+    nav {
+        display: none;
+    }
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}

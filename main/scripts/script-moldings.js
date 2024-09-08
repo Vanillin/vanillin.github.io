@@ -15,10 +15,13 @@ function CreateNewElement(name, img, price, lenght, wight, heigth){
     document.getElementById('grid').appendChild(elem);
 }
 
-CreateNewElement("M.01.04", "main/images/models-M/M.01.04.png", "?", "1000", "10", "25");
-CreateNewElement("M.01.08", "main/images/models-M/M.01.08.png", "?", "1000", "10", "25");
-CreateNewElement("M.01.09", "main/images/models-M/M.01.09.png", "?", "1000", "12", "38");
-CreateNewElement("M.02.02", "main/images/models-M/M.02.02.png", "?", "1000", "15", "45");
-CreateNewElement("M.02.03", "main/images/models-M/M.02.03.png", "?", "1000", "12", "46");
-CreateNewElement("M.02.06", "main/images/models-M/M.02.06.png", "?", "1000", "22", "55");
-CreateNewElement("M.04.01", "main/images/models-M/M.04.01.png", "?", "1000", "25", "95");
+CreateNewElement("M.01.01", "main/images/models-M/M 1.1 20.9.png", "?", "1000", "10", "25");
+CreateNewElement("M.01.02", "main/images/models-M/M 1.2 24.12.png", "?", "1000", "10", "25");
+CreateNewElement("M.01.03", "main/images/models-M/M 1.3 30.13.png", "?", "1000", "12", "38");
+CreateNewElement("M.01.04", "main/images/models-M/M 1.4 25.10.png", "?", "1000", "15", "45");
+CreateNewElement("M.01.05", "main/images/models-M/M 1.5 30.10.png", "?", "1000", "12", "46");
+CreateNewElement("M.01.06", "main/images/models-M/M 1.6 25.12.png", "?", "1000", "22", "55");
+CreateNewElement("M.01.07", "main/images/models-M/M 1.7 25.8.png", "?", "1000", "25", "95");
+CreateNewElement("M.01.08", "main/images/models-M/M 1.8 25.10.png", "?", "1000", "25", "95");
+CreateNewElement("M.01.09", "main/images/models-M/M 1.9 38.12.png", "?", "1000", "25", "95");
+CreateNewElement("M.01.10", "main/images/models-M/M 1.10 35.12.png", "?", "1000", "25", "95");
