@@ -14,10 +14,11 @@ p, a {
 a {
     text-decoration: none;
 }
-
-header {
+.screen {
+    aspect-ratio: 16/8;
     position: relative;
 }
+
 header li {
     margin: 0.7em;
 }
@@ -33,7 +34,8 @@ header hr {
     width: 54%;
     margin-inline: 20%;
     margin-top: 2em;
-    padding: 3%;
+    padding: 2%;
+    padding-inline: 3%;
     position: absolute;
     top: 0;
     border-radius: 40px / 40px;
@@ -64,12 +66,91 @@ header hr {
     margin-inline: 3em;
 }
 
-section {
+.about-us {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+    margin-inline: 5%;
+}
+.text-about-us {
+    font-size: 2em;
+    align-items: center;
+    display: flex;
+    width: 45%;
+}
+.text-about-us p {
+    margin: 1em;
+    margin-inline: 0;
+}
+.picture-about-us {
+    width: 45%;
+    text-align: right;
+}
+.picture-about-us>img {
+    width: 100%;
+    border-radius: 100px / 100px;
+}
+
+.elements-review {
+    align-items: center;
+    height: 100%;
+    width: 90%;
+    margin-inline: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.element-review {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.text-review {
+    font-size: 2em;
+    align-items: center;
+    display: flex;
+    width: 45%;
+}
+.text-review p {
+    margin: 1em;
+    margin-inline: 0;
+}
+.picture-review {
+    width: 45%;
+    text-align: right;
+}
+.picture-review>img {
+    width: 100%;
+    border-radius: 100px / 100px;
+}
+
+.left-button-slide,
+.right-button-slide {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    height: 50px;
+    font-size: 3em;
+    border: none;
+    background-color: transparent;
+}
+.left-button-slide {
+  left: 30px;
+}
+.right-button-slide {
+  right: 30px;
+}
+
+.catalog-name {
+    font-size: 3em;
+    justify-content: center;
+    display: flex;
+}
+.catalog {
     display: grid;
     padding-top: 1em;
     padding-bottom: 1em;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
 }
 .element-sections {
     padding: 1em;
@@ -79,6 +160,7 @@ section {
 }
 .element-sections>img {
     width: 100%;
+    aspect-ratio: 3/2;
 }
 .element-sections>p {
     font-size: 4em;

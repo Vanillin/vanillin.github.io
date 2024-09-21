@@ -8,14 +8,13 @@
         @font-face {font-family: Kurale; src: url(main/fonts/Kurale.ttf);}
     </style>
     <title>ElisDecor - лепнина Ярославля</title>
-    <link rel="stylesheet" href="main/styles/style-fonts.css">
     <link rel="stylesheet" href="main/styles/style-main.css">
     <link rel="stylesheet" href="main/styles/style-color.css">
 </head>
 
 <body id="top" class="backcolor-gray">
     <header>
-        <img class="background-image" src="main/images/background-image.jpg" alt="background" >  
+        <img class="background-image screen" src="main/images/background-image.jpg" alt="background" >  
         <div class="background-logo backcolor-darkgray">
             <div class="logo-top">
                 <p class="name-logo color-white">ElisDecor</p>
@@ -30,36 +29,100 @@
             </div>
             <hr class="color-white"/>
             <div class="menu">
-                <a class="color-white hover-ligthorange" href="cornices.html">Карнизы</a>
-                <a class="color-white hover-ligthorange" href="moldings.html">Молдинги</a>
-                <a class="color-white hover-ligthorange" href="designers.html">Декоративные</a>
-                <a class="color-white hover-ligthorange" href="corner.html">Угловые</a>
+                <a class="color-white hover-ligthorange" href="#about-us">О нас</a>
+                <a class="color-white hover-ligthorange" href="#review">Отзывы</a>
+                <a class="color-white hover-ligthorange" href="#catalog">Каталог</a>
+                <a class="color-white hover-ligthorange" href="#bottom">Контакты</a>
             </div>
         </div>     
     </header>
-    <section>
-        <div class="element-sections backcolor-darkgray">
-            <img src="main/images/navigation/cornice.png" alt="Карнизы">
-            <p class="color-white">Кaрнизы</p>
-            <a href="cornices.html"></a>
-        </div>
-        <div class="element-sections backcolor-darkgray">
-            <img src="main/images/navigation/molding.png" alt="Молдинги">
-            <p class="color-white">Молдинги</p>
-            <a href="moldings.html"></a>
-        </div>
-        <div class="element-sections backcolor-darkgray">
-            <img src="main/images/navigation/designer.png" alt="Декоративные">
-            <p class="color-white">Декоративные</p>
-            <a href="designers.html"></a>
-        </div>
-        <div class="element-sections backcolor-darkgray">
-            <img src="main/images/navigation/corner.png" alt="Угловые">
-            <p class="color-white">Угловые</p>
-            <a href="corner.html"></a>
+    <section id="about-us" class="screen">
+        <div class="about-us">
+            <div class="text-about-us color-white">
+                <ul>
+                    <p>Профессиональное качество и мастерство, огромное количество заказов и положительных отзывов</p>
+                    <p>Огромный спект работ, реставрация, производство и монтаж лепнины</p>
+                </ul>
+            </div>
+            <div class="picture-about-us">
+                <img src="main/images/about-us.jpg" alt="О нас">
+            </div>
         </div>
     </section>
-    <footer class="backcolor-darkgray">
+    <section id="review" class="screen backcolor-darkgray">
+        <button class="left-button-slide color-white" onclick="showPreviousSlide()" aria-label="Посмотреть предыдущий слайд">&lt;</button>
+
+        <div class="elements-review">
+            <div class="element-review">                
+                <div class="picture-review">
+                    <img src="main/images/reviews/rev1.png" alt="Отзыв 1">
+                </div>
+                <div class="text-review color-white">
+                    <ul>
+                        <p>Ручная работа, Углич</p>
+                    </ul>
+                </div>
+            </div>
+            <div class="element-review">                
+                <div class="picture-review">
+                    <img src="main/images/reviews/rev2.png" alt="Отзыв 2">
+                </div>
+                <div class="text-review color-white">
+                    <ul>
+                        <p>Реставрация храма, Львы</p>
+                    </ul>
+                </div>
+            </div>
+            <div class="element-review">                
+                <div class="picture-review">
+                    <img src="main/images/reviews/rev3.png" alt="Отзыв 3">
+                </div>
+                <div class="text-review color-white">
+                    <ul>
+                        <p>Дизайнерская лепнина, Ярославль, Лучинское</p>
+                    </ul>
+                </div>
+            </div>
+            <div class="element-review">                
+                <div class="picture-review">
+                    <img src="main/images/reviews/rev4.png" alt="Отзыв 4">
+                </div>
+                <div class="text-review color-white">
+                    <ul>
+                        <p>Дизайнерские панели, Ярославль</p>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <button class="right-button-slide color-white" onclick="showNextSlide()" aria-label="Посмотреть следующий слайд">&gt;</button>
+        <script src="main/scripts/script-slider.js"></script>
+    </section>
+    <section id="catalog">
+        <div class="catalog">
+            <div class="element-sections backcolor-darkgray">
+                <img src="main/images/navigation/cornice.png" alt="Карнизы">
+                <p class="color-white">Кaрнизы</p>
+                <a href="cornices.html"></a>
+            </div>
+            <div class="element-sections backcolor-darkgray">
+                <img src="main/images/navigation/molding.png" alt="Молдинги">
+                <p class="color-white">Молдинги</p>
+                <a href="moldings.html"></a>
+            </div>
+            <div class="element-sections backcolor-darkgray">
+                <img src="main/images/navigation/designer.png" alt="Декоративные">
+                <p class="color-white">Декоративные</p>
+                <a href="designers.html"></a>
+            </div>
+            <div class="element-sections backcolor-darkgray">
+                <img src="main/images/navigation/corner.png" alt="Угловые">
+                <p class="color-white">Угловые</p>
+                <a href="corner.html"></a>
+            </div>
+        </div>        
+    </section>
+    <footer class="backcolor-darkgray" id="bottom">
         <div>
             <ul>
                 <li><p class="color-orange">Навигация</p></li>
