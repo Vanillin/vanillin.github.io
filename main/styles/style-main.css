@@ -261,7 +261,8 @@ footer li {
     .background-image,    
     .footer-but-up,    
     header hr,
-    .menu
+    .menu,
+    #about-us
     {
         display: none;
     }
@@ -270,6 +271,7 @@ footer li {
         width: 94%;
         margin: 0;
         padding: 3%;
+        border-radius: 0 / 0;
     }
     .element-sections>p {
         font-size: 2em;
@@ -303,7 +305,8 @@ footer li {
         grid-template-rows: repeat(4, 1fr);
     }
     .footer-but-up,
-    .footer-contacts
+    .footer-contacts,
+    #review
     {
         display: none;
     }    
@@ -319,7 +322,7 @@ footer li {
         margin: 0.2em;
     }
     .element-sections>p {
-        font-size: 2em;
+        font-size: 1em;
         position: absolute;
         top: 0.5em;
         left: 1em;
