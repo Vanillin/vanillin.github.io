@@ -7,7 +7,7 @@
         @font-face {font-family: AlexBrush; src: url(main/fonts/AlexBrush.ttf);}
         @font-face {font-family: Kurale; src: url(main/fonts/Kurale.ttf);}
     </style>
-    <title>ElisDecor - лепнина Ярославля</title>
+    <title>El.Decor - лепнина Ярославля</title>
     <link rel="stylesheet" href="main/styles/style-main.css">
     <link rel="stylesheet" href="main/styles/style-color.css">
 </head>
@@ -16,10 +16,10 @@
     <header>
         <img class="background-image screen" src="main/images/background-image.jpg" alt="background" >  
         <div class="background-logo backcolor-darkgray">
-            <div class="logo-top">
-                <p class="name-logo color-white">ElisDecor</p>
+            <div class="logo-top flex-spacebetween">
+                <p class="name-logo color-white">El.Decor</p>
                 <img class="image-logo" src="main/images/label-png.png" alt="Логотип" >
-                <div>
+                <div class="flex-spacebetween">
                     <ul>
                         <li><a class="color-white hover-ligthorange" href="https://vk.com/elisdecor">vk.com/elisdecor</a></li>
                         <li><a class="color-white hover-ligthorange" href="mailto:k.elistrat@mail.ru">k.elistrat@mail.ru</a></li>
@@ -28,7 +28,7 @@
                 </div>
             </div>
             <hr class="color-white"/>
-            <div class="menu">
+            <div class="menu flex-spacebetween">
                 <a class="color-white hover-ligthorange" href="#about-us">О нас</a>
                 <a class="color-white hover-ligthorange" href="#review">Отзывы</a>
                 <a class="color-white hover-ligthorange" href="#catalog">Каталог</a>
@@ -37,64 +37,23 @@
         </div>     
     </header>
     <section id="about-us" class="screen">
-        <div class="about-us">
-            <div class="text-about-us color-white">
+        <div class="about-us flex-spacebetween">
+            <div class="text-section color-white">
                 <ul>
                     <p>Профессиональное качество и мастерство, огромное количество заказов и положительных отзывов</p>
                     <p>Огромный спект работ, реставрация, производство и монтаж лепнины</p>
                 </ul>
             </div>
-            <div class="picture-about-us">
+            <div class="picture-section">
                 <img src="main/images/about-us.jpg" alt="О нас">
             </div>
         </div>
     </section>
     <section id="review" class="screen backcolor-darkgray">
         <button class="left-button-slide color-white" onclick="showPreviousSlide()" aria-label="Посмотреть предыдущий слайд">&lt;</button>
-
-        <div class="elements-review">
-            <div class="element-review">                
-                <div class="picture-review">
-                    <img src="main/images/reviews/rev1.png" alt="Отзыв 1">
-                </div>
-                <div class="text-review color-white">
-                    <ul>
-                        <p>Ручная работа, Углич</p>
-                    </ul>
-                </div>
-            </div>
-            <div class="element-review">                
-                <div class="picture-review">
-                    <img src="main/images/reviews/rev2.png" alt="Отзыв 2">
-                </div>
-                <div class="text-review color-white">
-                    <ul>
-                        <p>Реставрация храма, Торжок</p>
-                    </ul>
-                </div>
-            </div>
-            <div class="element-review">                
-                <div class="picture-review">
-                    <img src="main/images/reviews/rev3.png" alt="Отзыв 3">
-                </div>
-                <div class="text-review color-white">
-                    <ul>
-                        <p>Дизайнерская лепнина, Лучинское</p>
-                    </ul>
-                </div>
-            </div>
-            <div class="element-review">                
-                <div class="picture-review">
-                    <img src="main/images/reviews/rev4.png" alt="Отзыв 4">
-                </div>
-                <div class="text-review color-white">
-                    <ul>
-                        <p>Дизайнерские панно, Ярославль</p>
-                    </ul>
-                </div>
-            </div>
+        <div id="elements-review" class="elements-review flex-spacebetween">
+            <script type="text/javascript" src="main/scripts/script-reviews.js"> </script>
         </div>
-
         <button class="right-button-slide color-white" onclick="showNextSlide()" aria-label="Посмотреть следующий слайд">&gt;</button>
         <script src="main/scripts/script-slider.js"></script>
     </section>
@@ -122,7 +81,7 @@
             </div>
         </div>        
     </section>
-    <footer class="backcolor-darkgray" id="bottom">
+    <footer class="backcolor-darkgray flex-spacebetween" id="bottom">
         <div>
             <ul>
                 <li><p class="color-orange">Навигация</p></li>

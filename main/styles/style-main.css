@@ -5,18 +5,23 @@
 ul {
     list-style: none;
 }
-p, a {
-    font-family: Kurale;
-}
 .name-logo {
     font-family: AlexBrush;
+}
+p, a {
+    font-family: Kurale;
 }
 a {
     text-decoration: none;
 }
+
 .screen {
-    aspect-ratio: 16/8;
+    aspect-ratio: 2/1;
     position: relative;
+}
+.flex-spacebetween {
+    display: flex;
+    justify-content: space-between;
 }
 
 header li {
@@ -42,14 +47,10 @@ header hr {
 }
 
 .logo-top {
-    display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 .logo-top>div {
-    display: flex;
     width: 150px;
-    justify-content: space-between;
 }
 .name-logo {
     width: 150px;
@@ -61,33 +62,29 @@ header hr {
 }
 
 .menu {
-    display: flex;
-    justify-content: space-between;
     margin-inline: 3em;
 }
 
 .about-us {
-    display: flex;
-    justify-content: space-between;
     height: 100%;
     align-items: center;
     margin-inline: 5%;
 }
-.text-about-us {
+.text-section {
     font-size: 2em;
     align-items: center;
     display: flex;
     width: 45%;
 }
-.text-about-us p {
+.text-section p {
     margin: 1em;
     margin-inline: 0;
 }
-.picture-about-us {
+.picture-section {
     width: 45%;
     text-align: right;
 }
-.picture-about-us>img {
+.picture-section>img {
     width: 100%;
     border-radius: 100px / 100px;
 }
@@ -97,31 +94,9 @@ header hr {
     height: 100%;
     width: 90%;
     margin-inline: 5%;
-    display: flex;
-    justify-content: space-between;
 }
 .element-review {
     width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-.text-review {
-    font-size: 2em;
-    align-items: center;
-    display: flex;
-    width: 45%;
-}
-.text-review p {
-    margin: 1em;
-    margin-inline: 0;
-}
-.picture-review {
-    width: 45%;
-    text-align: right;
-}
-.picture-review>img {
-    width: 100%;
-    border-radius: 100px / 100px;
 }
 
 .left-button-slide,
@@ -141,11 +116,6 @@ header hr {
   right: 30px;
 }
 
-.catalog-name {
-    font-size: 3em;
-    justify-content: center;
-    display: flex;
-}
 .catalog {
     display: grid;
     padding-top: 1em;
@@ -190,14 +160,11 @@ header hr {
 footer {
     width: 90%;
     padding-inline: 5%;
-    display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 footer li {
     margin: 1em;
 }
-
 .footer-but-up>a {
     font-size: 3em;
     display: block;
@@ -210,10 +177,6 @@ footer li {
 
     .element-sections>p {
         font-size: 3em;
-        position: absolute;
-        top: 0.5em;
-        left: 1em;
-        display: none;
     }
     
     }
@@ -222,10 +185,6 @@ footer li {
 
     .element-sections>p {
         font-size: 2em;
-        position: absolute;
-        top: 0.5em;
-        left: 1em;
-        display: none;
     }
         
     }    
@@ -235,23 +194,16 @@ footer li {
     .name-logo {
         display: none;
     }
-    section {    
+    .catalog {    
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
     }
     .background-logo {
         width: 74%;
         margin-inline: 10%;
-        padding: 3%;    
-        margin-top: 2em;
-        border-radius: 40px / 40px;
+        padding: 3%;
     }
     .element-sections>p {
         font-size: 3em;
-        position: absolute;
-        top: 0.5em;
-        left: 1em;
-        display: none;
     }
     
     }
@@ -270,14 +222,10 @@ footer li {
         position: static;
         width: 94%;
         margin: 0;
-        padding: 3%;
         border-radius: 0 / 0;
     }
     .element-sections>p {
         font-size: 2em;
-        position: absolute;
-        top: 0.5em;
-        left: 1em;
         display: block;
     }
     .element-sections>img {
@@ -290,43 +238,29 @@ footer li {
 
     .element-sections>p {
         font-size: 1.5em;
-        position: absolute;
-        top: 0.5em;
-        left: 1em;
-        display: block;
     }
             
     } 
 
 @media (max-width: 450px) {
 
-    section {    
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(4, 1fr);
-    }
-    .footer-but-up,
     .footer-contacts,
     #review
     {
         display: none;
-    }    
+    }  
+    .catalog {    
+        grid-template-columns: repeat(1, 1fr);
+    }  
     .background-logo {
         width: 90%;
-        margin: 0;
         padding: 5%;
-        position: static;
-        border-radius: 0 / 0;
     }
     .image-logo {
         height: 100px;
-        margin: 0.2em;
     }
     .element-sections>p {
         font-size: 1em;
-        position: absolute;
-        top: 0.5em;
-        left: 1em;
-        display: block;
     }
 
 }
