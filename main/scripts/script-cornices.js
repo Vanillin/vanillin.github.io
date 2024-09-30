@@ -23,3 +23,45 @@ CreateNewElement("K.01.06", "main/images/models-K/K 1.6 36.40.png", "848", "1000
 CreateNewElement("K.01.07", "main/images/models-K/K 1.7 20.20.png", "540", "1000", "20", "20");
 CreateNewElement("K.01.08", "main/images/models-K/K 1.8 25.25.png", "614", "1000", "25", "25");
 CreateNewElement("K.01.09", "main/images/models-K/K 1.9 30.30.png", "740", "1000", "30", "30");
+
+// CreateNewElement("K.02.01", "main/images/models-K/K 2.1 45.45.png", "1038", "1000", "45", "45");
+// CreateNewElement("K.02.02", "main/images/models-K/K 2.2 50.50.png", "1192", "1000", "50", "50");
+// CreateNewElement("K.02.03", "main/images/models-K/K 2.3 55.56.png", "1342", "1000", "55", "56");
+// CreateNewElement("K.02.04", "main/images/models-K/K 2.4 60.60.png", "1550", "1000", "60", "60");
+// CreateNewElement("K.02.05", "main/images/models-K/K 2.5 63.60.png", "1608", "1000", "63", "60");
+// CreateNewElement("K.02.06", "main/images/models-K/K 2.6 70.52.png", "1472", "1000", "70", "52");
+// CreateNewElement("K.02.07", "main/images/models-K/K 2.7 46.49.png", "1112", "1000", "46", "49");
+// CreateNewElement("K.02.08", "main/images/models-K/K 2.8 43.43.png", "980", "1000", "43", "43");
+// CreateNewElement("K.02.09", "main/images/models-K/K 2.9 53.58.png", "1379", "1000", "53", "58");
+// CreateNewElement("K.02.10", "main/images/models-K/K 2.10 40.50.png", "1030", "1000", "40", "50");
+// CreateNewElement("K.02.11", "main/images/models-K/K 2.11 37.45.png", "921", "1000", "37", "45");
+// CreateNewElement("K.02.12", "main/images/models-K/K 2.12 40.41.png", "913", "1000", "40", "41");
+// CreateNewElement("K.02.13", "main/images/models-K/K 2.13 28.45.png", "812", "1000", "28", "45");
+// CreateNewElement("K.02.14", "main/images/models-K/K 2.14 30.45.png", "818", "1000", "30", "45");
+
+// // CreateNewElement("K.03.01", "main/images/models-K/K 3.1 60.60.png", "740", "1000", "60", "60"); //копия
+// CreateNewElement("K.03.02", "main/images/models-K/K 3.2 80.80.png", "2300", "1000", "80", "80");
+// CreateNewElement("K.03.03", "main/images/models-K/K 3.3 85.80.png", "2420", "1000", "85", "80");
+// CreateNewElement("K.03.04", "main/images/models-K/K 3.4 105.80.png", "2900", "1000", "105", "80");
+// CreateNewElement("K.03.05", "main/images/models-K/K 3.5 75.72.png", "2135", "1000", "75", "72");
+// CreateNewElement("K.03.06", "main/images/models-K/K 3.6 70.70.png", "1972", "1000", "70", "70");
+// CreateNewElement("K.03.07", "main/images/models-K/K 3.7 80.80.png", "2460", "1000", "80", "80");
+
+// CreateNewElement("K.04.01", "main/images/models-K/K 4.1 85.85.png", "2728", "1000", "85", "85");
+// CreateNewElement("K.04.02", "main/images/models-K/K 4.2 72.100.png", "2540", "1000", "72", "100");
+// CreateNewElement("K.04.03", "main/images/models-K/K 4.3 100.100.png", "3630", "1000", "100", "100");
+// CreateNewElement("K.04.04", "main/images/models-K/K 4.4 85.84.png", "2700", "1000", "85", "84");
+// CreateNewElement("K.04.05", "main/images/models-K/K 4.5 81.83.png", "2396", "1000", "81", "83");
+// CreateNewElement("K.04.06", "main/images/models-K/K 4.6 98.98.png", "3381", "1000", "98", "98");
+// CreateNewElement("K.04.07", "main/images/models-K/K 4.7 72.104.png", "2813", "1000", "72", "104");
+// CreateNewElement("K.04.08", "main/images/models-K/K 4.8 50.100.png", "2005", "1000", "50", "100");
+// CreateNewElement("K.04.09", "main/images/models-K/K 4.9 80.118.png", "3448", "1000", "80", "118");
+
+// CreateNewElement("K.05.01", "main/images/models-K/K 5.1 100.115.png", "4117", "1000", "100", "115");
+// CreateNewElement("K.05.02", "main/images/models-K/K 5.2 80.120.png", "3500", "1000", "80", "120");
+// CreateNewElement("K.05.03", "main/images/models-K/K 5.3 115.120.png", "4865", "1000", "115", "120");
+// CreateNewElement("K.05.04", "main/images/models-K/K 5.4 75.120.png", "3080", "1000", "75", "120");
+// CreateNewElement("K.05.05", "main/images/models-K/K 5.5 100.113.png", "4052", "1000", "100", "113");
+
+// CreateNewElement("K.06.01", "main/images/models-K/K 6.1 198.130.png", "8745", "1000", "198", "130");
+// CreateNewElement("K.06.02", "main/images/models-K/K 6.2 130.128.png", "5372", "1000", "130", "128");
