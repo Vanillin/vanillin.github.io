@@ -1,26 +1,65 @@
-const slider = document.querySelector('.elements-review');
-const slides = Array.from(slider.querySelectorAll('.element-review'));
-const slideCount = slides.length;
-let slideIndex = 0;
+const sliderPict = document.querySelector(".picture-section");
+const slidesPict = Array.from(sliderPict.querySelectorAll('img'));
+const sliderText = document.querySelector(".text-section");
+const slidesText = Array.from(sliderText.querySelectorAll('ul'));
+const slideCount = slidesText.length;
+let slideIndexCenter = 0;
+let slideIndetLeft = slideCount-1;
+let slideIndexRight = 1;
+
+updateSlider();
 
 function showPreviousSlide() {
-  slideIndex = (slideIndex - 1 + slideCount) % slideCount;
+  slideIndexCenter = (slideIndexCenter - 1 + slideCount) % slideCount;  
+  slideIndetLeft = (slideIndexCenter - 1 + slideCount) % slideCount;
+  slideIndexRight = (slideIndexCenter + 1) % slideCount;
   updateSlider();
 }
 
 function showNextSlide() {
-  slideIndex = (slideIndex + 1) % slideCount;
+  slideIndexCenter = (slideIndexCenter + 1) % slideCount;  
+  slideIndetLeft = (slideIndexCenter - 1 + slideCount) % slideCount;
+  slideIndexRight = (slideIndexCenter + 1) % slideCount;
   updateSlider();
 }
 
 function updateSlider() {
-  slides.forEach((slide, index) => {
-    if (index === slideIndex) {
-      slide.style.display = 'flex';
-    } 
-    else {
-      slide.style.display = 'none';
-    }});
-}
+  slidesPict.forEach((slide, index) => {
+    
+    slide.classList.remove('left-img');
+    slide.classList.remove('center-img');
+    slide.classList.remove('right-img');
 
-updateSlider();
+    switch (index){
+
+      case slideIndetLeft:{
+        slide.style.display = 'block';
+        slide.classList.add('left-img');
+        break;
+      }
+      case slideIndexCenter:{
+        slide.style.display = 'block';
+        slide.classList.add('center-img');
+        break;
+      }
+      case slideIndexRight:{
+        slide.style.display = 'block';
+        slide.classList.add('right-img');
+        break;
+      }
+      default:{
+        slide.style.display = 'none';
+      }
+
+    }
+  });
+  slidesText.forEach((slide, index) => {
+
+    if (index == slideIndexCenter) {
+      slide.style.display = "block";
+    } else {
+      slide.style.display = "none";
+    }
+
+  });
+}

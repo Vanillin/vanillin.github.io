@@ -36,7 +36,7 @@
             </div>
         </div>     
     </header>
-    <section id="about-us" class="screen">
+    <!-- <section id="about-us" class="screen">
         <div class="about-us flex-spacebetween">
             <div class="text-section color-white">
                 <ul>
@@ -48,15 +48,7 @@
                 <img src="main/images/about-us.jpg" alt="О нас">
             </div>
         </div>
-    </section>
-    <section id="review" class="screen backcolor-darkgray">
-        <button class="left-button-slide color-white" onclick="showPreviousSlide()" aria-label="Посмотреть предыдущий слайд">&lt;</button>
-        <div id="elements-review" class="elements-review flex-spacebetween">
-            <script type="text/javascript" src="main/scripts/script-reviews.js"> </script>
-        </div>
-        <button class="right-button-slide color-white" onclick="showNextSlide()" aria-label="Посмотреть следующий слайд">&gt;</button>
-        <script src="main/scripts/script-slider.js"></script>
-    </section>
+    </section> -->
     <section id="catalog">
         <div class="catalog">
             <div class="element-sections backcolor-darkgray">
@@ -70,16 +62,33 @@
                 <a href="moldings.html"></a>
             </div>
             <div class="element-sections backcolor-darkgray">
-                <img src="main/images/navigation/designer.png" alt="Декоративные">
-                <p class="color-white">Декоратив</p>
-                <a href="designers.html"></a>
-            </div>
-            <div class="element-sections backcolor-darkgray">
                 <img src="main/images/navigation/corner.png" alt="Угловые">
                 <p class="color-white">Угловые</p>
                 <a href="corner.html"></a>
             </div>
+            <div class="element-sections backcolor-darkgray">
+                <img src="main/images/navigation/designer.png" alt="Декоративные">
+                <p class="color-white">Декоративные</p>
+                <a href="designers.html"></a>
+            </div>
         </div>        
+    </section>
+    <section id="review" class="screen backcolor-darkgray">
+
+        <button class="left-button-slide color-white" onclick="showPreviousSlide()" aria-label="Посмотреть предыдущий слайд">&lt;</button>
+        <div class="elements-review flex-spacebetween backcolor-gray">
+
+            <div class="element-review">                
+                <div id="picture-section" class="picture-section">
+                </div>
+                <div id="text-section" class="text-section color-white">
+                </div>
+            </div>
+
+            <script type="text/javascript" src="main/scripts/script-reviews.js"> </script>
+        </div>
+        <button class="right-button-slide color-white" onclick="showNextSlide()" aria-label="Посмотреть следующий слайд">&gt;</button>
+        <script type="text/javascript" src="main/scripts/script-slider.js" ></script>
     </section>
     <footer class="backcolor-darkgray flex-spacebetween" id="bottom">
         <div>
