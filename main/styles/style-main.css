@@ -49,16 +49,14 @@ header hr {
 .logo-top {
     align-items: center;
 }
-.logo-top>div {
+.contacts-logo {
     width: 150px;
+}
+.logo-names {
+    padding-left: 5%;
 }
 .name-logo {
-    width: 150px;
-    font-size: 3em;
-}
-.image-logo {
-    height: 150px;
-    margin: 0.2em;
+    font-size: 3.8em;
 }
 
 .menu {
@@ -193,9 +191,19 @@ footer li {
     border-radius: 30%;
 }   
 
+.in-progress {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.in-progress>p {
+    padding-bottom: 1em;
+    font-size: 1.1em;
+}
+
 @media (max-width: 1000px) {
 
-    .name-logo {
+    .name-logo-under {
         display: none;
     }
     .catalog {    
@@ -232,12 +240,16 @@ footer li {
     .element-sections>p {
         font-size: 1.5em;
     }
+    .logo-names {
+        padding-left: 0;
+    }
 
 }
 
 @media (max-width: 550px) {
 
     #bottom,
+    .in-progress,
     #review
     {
         display: none;
@@ -251,6 +263,17 @@ footer li {
     }
     .image-logo {
         height: 100px;
+    }
+    .name-logo {
+        font-size: 3em;
+    }
+
+}
+
+@media (max-width: 350px) {
+
+    .name-logo {
+        font-size: 2.5em;
     }
 
 }
