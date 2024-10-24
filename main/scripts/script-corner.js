@@ -13,5 +13,5 @@ function CreateNewElement(name, img, price, lenght, wight, heigth){
     document.getElementById('grid').appendChild(elem);
 }
 
-CreateNewElement("Y.02.01", "main/images/models-D/Y 2.1 43.41.png", "?", "1000", "43", "41");
-CreateNewElement("Y.03.01", "main/images/models-D/Y 3.1 70.75.png", "?", "1000", "70", "75");
+CreateNewElement("Y.02.01", "main/images/models-D/Y 2.1 43.41.png", "?", 1000, 43, 41);
+CreateNewElement("Y.03.01", "main/images/models-D/Y 3.1 70.75.png", "?", 1000, 70, 75);
