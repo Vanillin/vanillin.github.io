@@ -40,6 +40,8 @@ a {
     padding: 2em;
     display: block;
     border-radius: 15px;
+    position: sticky;
+    top: 16px;
 }
 
 .nav-left p,
