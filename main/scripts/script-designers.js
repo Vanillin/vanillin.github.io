@@ -13,7 +13,8 @@ function CreateNewElement(name, img, price, lenght, wight, heigth){
     document.getElementById('grid').appendChild(elem);
 }
 
-CreateNewElement("MD.05.01", "main/images/models-D/MD 5.1 80.120 v2.png", ".", 1000, 80, 120);
-CreateNewElement("MD.06.01", "main/images/models-D/MD 6.1 70.125 v2.png", ".", 1000, 70, 125);
-CreateNewElement("MD.06.02", "main/images/models-D/MD 6.2 62.128.760 v2.png", ".", 760, 62, 128);
-CreateNewElement("MD.06.03", "main/images/models-D/MD 6.3 60.130.420 v2.png", ".", 420, 30, 130);
+CreateNewElement("MD.05.01", "main/images/models-D/MD 5.1 80.120 v2.png", 2970, 1000, 80, 120);
+CreateNewElement("MD.06.01", "main/images/models-D/MD 6.1 70.125 v2.png", 3130, 1000, 70, 125);
+CreateNewElement("MD.06.04", "main/images/models-D/MD 6.4 90.125.png", 3590, 1000, 90, 125);
+CreateNewElement("MD.06.02      (K.06.03)", "main/images/models-D/MD 6.2 62.128.760 v2.png", 2820, 760, 62, 128);
+CreateNewElement("MD.06.03", "main/images/models-D/MD 6.3 60.130.420 v2.png", 3780, 420, 30, 130);

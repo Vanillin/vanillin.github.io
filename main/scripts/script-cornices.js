@@ -31,7 +31,7 @@ CreateNewElement("K.02.14", "main/images/models-K/K 2.14 30.45.png", 736 -150 , 
 CreateNewElement("K.02.11", "main/images/models-K/K 2.11 37.45.png", 784 -150 , 1000, 37, 45);
 CreateNewElement("K.02.01", "main/images/models-K/K 2.1 45.45.png", 789 -150 , 1000, 45, 45);
 CreateNewElement("K.02.07", "main/images/models-K/K 2.7 46.49.png", 817 -150 , 1000, 46, 49);
-CreateNewElement("K.02.10", "main/images/models-K/K 2.10 40.50.png", 786 -150 + 500, 1000, 40, 50);
+//CreateNewElement("K.02.10", "main/images/models-K/K 2.10 40.50.png", 786 -150 + 500, 1000, 40, 50);
 CreateNewElement("K.02.02", "main/images/models-K/K 2.2 50.50.png", 812 -150 , 1000, 50, 50);
 CreateNewElement("K.02.03", "main/images/models-K/K 2.3 55.56.png", 788 -150 , 1000, 55, 56);
 //CreateNewElement("K.02.09", "main/images/models-K/K 2.9 53.58.png", 909 -150 , 1000, 53, 58); //убрать
@@ -41,27 +41,33 @@ CreateNewElement("K.02.04", "main/images/models-K/K 2.4 60.60.png", 917 -150 , 1
 CreateNewElement("K.03.08", "main/images/models-K/K 2.5 63.60.png", 941 -100 , 1000, 63, 60); //2.5
 CreateNewElement("K.03.09", "main/images/models-K/K 2.6 70.52.png", 840 -100 , 1000, 70, 52); //2.6
 CreateNewElement("K.03.06", "main/images/models-K/K 3.6 70.70.png", 1053 -100 , 1000, 70, 70);
-CreateNewElement("K.03.05", "main/images/models-K/K 3.5 75.72.png", 1124 -100 , 1000, 75, 72);
-CreateNewElement("K.03.02", "main/images/models-K/K 3.2 80.80.png", 1010 -100 , 1000, 80, 80);
+CreateNewElement("K.03.05", "main/images/models-K/K 3.5 75.72.png", 1572 , 1000, 75, 72);
+CreateNewElement("K.03.02", "main/images/models-K/K 3.2 80.80.png", 1523 , 1000, 80, 80);
 //CreateNewElement("K.03.07", "main/images/models-K/K 3.7 80.80.png", 1255 -100 , 1000, 80, 80); //убрать
 
 //CreateNewElement("K.04.05", "main/images/models-K/K 4.5 81.83.png", 1034, 1000, 81, 83); //убрать
-CreateNewElement("K.04.09", "main/images/models-K/K 3.3 85.80.png", 1100, 1000, 85, 80); //3.3
+CreateNewElement("K.04.09", "main/images/models-K/K 3.3 85.80.png", 1580, 1000, 85, 80); //3.3
 //CreateNewElement("K.04.04", "main/images/models-K/K 4.4 85.84.png", 1309, 1000, 85, 84); //убрать
-CreateNewElement("K.04.01", "main/images/models-K/K 4.1 85.85.png", 1323, 1000, 85, 85);
-CreateNewElement("K.04.06", "main/images/models-K/K 4.6 98.98.png", 1573, 1000, 98, 98);
-CreateNewElement("K.04.08", "main/images/models-K/K 4.8 50.100.png", 1124, 1000, 50, 100);
-CreateNewElement("K.04.02", "main/images/models-K/K 4.2 72.100.png", 1110, 1000, 72, 100);
-CreateNewElement("K.04.03", "main/images/models-K/K 4.3 100.100.png", 1603, 1000, 100, 100);
+CreateNewElement("K.04.01", "main/images/models-K/K 4.1 85.85.png", 1642, 1000, 85, 85);
+CreateNewElement("K.04.06", "main/images/models-K/K 4.6 98.98.png", 1673, 1000, 98, 98);
+CreateNewElement("K.04.08", "main/images/models-K/K 4.8 50.100.png", 2490, 1000, 50, 100);
+CreateNewElement("K.04.02", "main/images/models-K/K 4.2 72.100.png", 2545, 1000, 72, 100);
+CreateNewElement("K.04.10", "main/images/models-K/K 4.10 95.100.png", 2571, 1000, 95, 100);
+CreateNewElement("K.04.03", "main/images/models-K/K 4.3 100.100.png", 2502, 1000, 100, 100);
 
-CreateNewElement("K.05.06", "main/images/models-K/K 4.7 72.104.png", 1339, 1000, 72, 104); //4.7
-CreateNewElement("K.05.07", "main/images/models-K/K 3.4 105.80.png", 1201, 1000, 105, 80); //3.4
+CreateNewElement("K.05.06", "main/images/models-K/K 4.7 72.104.png", 2735, 1000, 72, 104); //4.7
+CreateNewElement("K.05.07", "main/images/models-K/K 3.4 105.80.png", 2774, 1000, 105, 80); //3.4
 //CreateNewElement("K.05.05", "main/images/models-K/K 5.5 100.113.png", 1789, 1000, 100, 113); //убрать
 //CreateNewElement("K.05.01", "main/images/models-K/K 5.1 100.115.png", 1809, 1000, 100, 115); //убрать
-CreateNewElement("K.05.08", "main/images/models-K/K 4.9 80.118.png", 1506, 1000, 80, 118); //4.9
-CreateNewElement("K.05.04", "main/images/models-K/K 5.4 75.120.png", 1252, 1000, 75, 120);
-CreateNewElement("K.05.02", "main/images/models-K/K 5.2 80.120.png", 1537, 1000, 80, 120);
-CreateNewElement("K.05.03", "main/images/models-K/K 5.3 115.120.png", 1981, 1000, 115, 120);
+CreateNewElement("K.05.08", "main/images/models-K/K 4.9 80.118.png", 2693, 1000, 80, 118); //4.9
+CreateNewElement("K.05.04", "main/images/models-K/K 5.4 75.120.png", 2740, 1000, 75, 120);
+CreateNewElement("K.05.02", "main/images/models-K/K 5.2 80.120.png", 3015, 1000, 80, 120);
+CreateNewElement("K.05.09", "main/images/models-K/K 2.10 40.50.png", 2486, 1000, 100, 120);
+CreateNewElement("K.05.03", "main/images/models-K/K 5.3 115.120.png", 2815, 1000, 115, 120);
 
-CreateNewElement("K.06.02", "main/images/models-K/K 6.2 130.128.png", 1821, 1000, 130, 128);
-CreateNewElement("K.06.01", "main/images/models-K/K 6.1 198.130.png", 3189 - 400, 1000, 198, 130);
+CreateNewElement("K.06.03", "main/images/models-K/K 6.3 62.128.png", 2461, 1000, 62, 128);
+CreateNewElement("K.06.02", "main/images/models-K/K 6.2 130.128.png", 2843, 1000, 130, 128);
+CreateNewElement("K.06.04", "main/images/models-K/K 6.4 150.70.png", 1862, 1000, 150, 70);
+CreateNewElement("K.06.05", "main/images/models-K/K 6.5 150.70.png", 1816, 1000, 150, 70);
+CreateNewElement("K.06.06", "main/images/models-K/K 6.6 150.48.png", 1795, 1000, 150, 48);
+CreateNewElement("K.06.01", "main/images/models-K/K 6.1 198.130.png", 3509, 1000, 198, 130);
